@@ -6,8 +6,7 @@ I'm passionate about computing, programming and web development; I constantly wo
 ![GitHub followers](https://img.shields.io/github/followers/styvensoft?style=social)
 
 #### Coding activity over last 30 days
-<a href="https://wakatime.com/@steveen_echeverri" target="_blank"><img alt="wakatime" src="https://wakatime.com/share/@steveen_echeverri/544bc068-af1f-456a-be63-721e7882a54c.svg" width="450"></a>
-<a href="https://wakatime.com/@steveen_echeverri" target="_blank"><img alt="wakatime" src="https://wakatime.com/share/@steveen_echeverri/b35dc090-6edc-47e6-b4cb-6501ca289c99.svg" width="450"></a>
+<a href="https://wakatime.com/@steveen_echeverri" target="_blank"><img alt="wakatime" src="https://wakatime.com/share/@steveen_echeverri/544bc068-af1f-456a-be63-721e7882a54c.svg" width="600"></a>
 
 🔭 More about my learning:
 
