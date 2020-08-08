@@ -5,8 +5,7 @@ I'm passionate about computing, programming and web development; I constantly wo
 <a href="https://twitter.com/styvensoft" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/styvensoft?style=social"></a>
 ![GitHub followers](https://img.shields.io/github/followers/styvensoft?style=social)
 
-#### Coding activity over last 30 days
-<a href="https://wakatime.com/@steveen_echeverri" target="_blank"><img alt="wakatime" src="https://wakatime.com/share/@steveen_echeverri/7891e4d1-aee8-43b3-8a51-b40cc85a3827.svg" width="600"></a>
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact)]()
 
 🔭 More about my learning:
 
