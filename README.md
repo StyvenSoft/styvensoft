@@ -5,7 +5,9 @@ I'm passionate about computing, programming and web development; I constantly wo
 <a href="https://twitter.com/styvensoft" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/styvensoft?style=social"></a>
 ![GitHub followers](https://img.shields.io/github/followers/styvensoft?style=social)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&theme=dark)]()
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri&theme=prussian)](https://wakatime.com/@steveen_echeverri)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&theme=prussian)](https://github.com/StyvenSoft?tab=repositories)
 
 🔭 More about my learning:
 
