@@ -2,12 +2,12 @@
 
 I'm passionate about computing, programming and web development; I constantly work in my self-taught learning, with the help of the different technological tools that currently interact and intervene in the transformation and growth of the digital world. 
 
-<a href="https://twitter.com/styvensoft" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/styvensoft?style=social"></a>
-![GitHub followers](https://img.shields.io/github/followers/styvensoft?style=social)
+<a href="https://twitter.com/styvensoft" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/styvensoft?style=social"></a><a href="https://www.codewars.com/users/StyvenSoft" target="_blank">![Codewars](https://www.codewars.com/users/StyvenSoft/badges/small)</a>
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri&theme=prussian)](https://wakatime.com/@steveen_echeverri)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&theme=prussian)](https://github.com/StyvenSoft?tab=repositories)
+
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri)](https://wakatime.com/@steveen_echeverri)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true)](https://github.com/StyvenSoft?tab=repositories)
 
 🔭 More about my learning:
 
