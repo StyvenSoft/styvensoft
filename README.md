@@ -10,14 +10,17 @@ I'm passionate about computing, programming and web development; I constantly wo
 [![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri)](https://wakatime.com/@steveen_echeverri)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true)](https://github.com/StyvenSoft?tab=repositories)
 
-🔭 More about my learning:
+🔭 More about my learning and statistics:
 
 <a href=https://www.freecodecamp.org/steveen.echeverri target="_blank"><img src=https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/freecodecamp.svg height="25" width="25" /></a>
 <a href="https://repl.it/@SteveenEcheverr" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/repl-dot-it.svg" height="25" width="25" /></a>
 <a href="https://codepen.io/stevenses" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codepen.svg" height="25" width="25" /></a>
 <a href="https://www.codecademy.com/profiles/SteveenEcheverry" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codecademy.svg" height="25" width="25" /></a>
+<a href="https://platzi.com/@steveenecheverri/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/platzi.svg" height="25" width="25" /></a>
 <a href="https://www.codewars.com/users/StyvenSoft" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codewars.svg" height="25" width="25" /></a>
 <a href="https://profile.codersrank.io/user/styvensoft/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codersrank.svg" height="25" width="25" /></a>
+<a href="https://profile-summary-for-github.com/user/StyvenSoft" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height="25" width="25" /></a>
+<a href="https://sourcerer.io/styvensoft" target="_blank"><img src="https://sourcerer.io/icons/logo-bright.svg" height="25" width="25" /></a>
 
 <!--
 **StyvenSoft/styvensoft** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
