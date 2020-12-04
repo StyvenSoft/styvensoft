@@ -20,7 +20,6 @@ I'm passionate about computing, programming and web development; I constantly wo
 <a href="https://www.codewars.com/users/StyvenSoft" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codewars.svg" height="25" width="25" /></a>
 <a href="https://profile.codersrank.io/user/styvensoft/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codersrank.svg" height="25" width="25" /></a>
 <a href="https://profile-summary-for-github.com/user/StyvenSoft" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height="25" width="25" /></a>
-<a href="https://sourcerer.io/styvensoft" target="_blank"><img src="https://sourcerer.io/icons/safari-pinned-tab.svg" height="25" width="25" /></a>
 
 <!--
 **StyvenSoft/styvensoft** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
