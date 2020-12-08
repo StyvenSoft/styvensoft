@@ -7,8 +7,8 @@ I'm passionate about computing, programming and web development; I constantly wo
 
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri)](https://wakatime.com/@steveen_echeverri)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true)](https://github.com/StyvenSoft?tab=repositories)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri&text_color=ffffff&bg_color=0d1117)](https://wakatime.com/@steveen_echeverri)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&text_color=ffffff&bg_color=0d1117)](https://github.com/StyvenSoft?tab=repositories)
 
 🔭 More about my learning and statistics:
 
