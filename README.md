@@ -5,11 +5,12 @@ I'm passionate about computing, programming and web development; I constantly wo
 <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/steveen-echeverri"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>
 <a href="https://twitter.com/styvensoft" target="_blank"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/styvensoft?style=social"></a><a href="https://www.codewars.com/users/StyvenSoft" target="_blank">![Codewars](https://www.codewars.com/users/StyvenSoft/badges/small)</a>
 <a href="https://www.youtube.com/channel/UC0cfFajw41F_juEyqu6JKnQ" target="_blank"><img alt="YouTube Channel" src="https://img.shields.io/youtube/channel/views/UC0cfFajw41F_juEyqu6JKnQ?style=social"></a>
-<a href="https://www.youtube.com/channel/UC0cfFajw41F_juEyqu6JKnQ" target="_blank"><img alt="YouTube Channel Subscribers" src="https://img.shields.io/youtube/channel/subscribers/UC8butISFwT-Wl7EV0hUK0BQ?style=social"></a>
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=styvensoft.styvensoft)
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveen_echeverri&text_color=ffffff&bg_color=0d1117)](https://wakatime.com/@steveen_echeverri)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveenecheverri&text_color=ffffff&bg_color=0d1117&range=last_7_days)](https://wakatime.com/@steveen_echeverri)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&text_color=ffffff&bg_color=0d1117)](https://github.com/StyvenSoft?tab=repositories)
+
 
 🔭 More about my learning and statistics:
 
