@@ -8,7 +8,7 @@ I'm a passionate web developer and programmer, committed to technology and compu
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=styvensoft.styvensoft)
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveenecheverri&text_color=ffffff&bg_color=0d1117&range=last_7_days)](https://wakatime.com/@steveen_echeverri)
+[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveenecheverri&text_color=ffffff&bg_color=0d1117)](https://wakatime.com/@steveenecheverri)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&text_color=ffffff&bg_color=0d1117)](https://github.com/StyvenSoft?tab=repositories)
 
 
