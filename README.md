@@ -8,8 +8,8 @@ I'm a passionate web developer and programmer, committed to technology and compu
 ![visitors](https://visitor-badge.laobi.icu/badge?page_id=styvensoft.styvensoft)
 
 
-[![willianrod's wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveenecheverri&text_color=ffffff&bg_color=0d1117)](https://wakatime.com/@steveenecheverri)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft&layout=compact&show_icons=true&text_color=ffffff&bg_color=0d1117)](https://github.com/StyvenSoft?tab=repositories)
+[![styvensoft wakatime stats](https://github-readme-stats.vercel.app/api/wakatime?username=steveenecheverri\&layout=compact&theme=transparent&border_color=75aede)](https://wakatime.com/@steveenecheverri)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=styvensoft\&layout=donut&theme=transparent&border_color=75aede)](https://github.com/StyvenSoft?tab=repositories)
 
 
 🔭 More about my learning:
@@ -22,4 +22,5 @@ I'm a passionate web developer and programmer, committed to technology and compu
 <a href="https://www.codewars.com/users/StyvenSoft" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codewars.svg" height="30" width="30" /></a>
 <a href="https://profile.codersrank.io/user/styvensoft/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/codersrank.svg" height="30" width="30" /></a>
 <a href="https://profile-summary-for-github.com/user/StyvenSoft" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/github.svg" height="30" width="30" /></a>
-<a href="https://app.aluracursos.com/user/steveen-echeverri" target="_blank"><img src="https://cdn2.gnarususercontent.com.br/6/449886/e4616bc3-7ae0-4acc-aa9d-41e08df15090.png"  height="50"/></a>
+<a href="https://app.aluracursos.com/user/steveen-echeverri" target="_blank"><img src="https://aprende.goodneighbors.cl/wp-content/uploads/2022/02/ONE_logo_rgb-768x408.png"  height="60"/></a>
+<a href="https://cs.lpi.org/caf/Xamman/certification/verify/LPI000636997/tjs2fjkmkz" target="_blank"><img src="https://toptalentskills.com/wp-content/uploads/2024/06/LPI_Essentials.png"  height="80"/></a>
