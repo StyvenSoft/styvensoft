@@ -1,0 +1,48 @@
+name: Update WakaTime Stats SVG
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # every 6 hours
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate SVG from Vercel API
+        env:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          mkdir -p wakatime
+          curl -fsSL "https://wakatime-readme-stats.vercel.app/api/wakatimeStats?username=steveenecheverri&api_key=$WAKATIME_API_KEY&github_token=$GITHUB_TOKEN" \
+            -o wakatime/stats.svg
+
+      - name: Bump README cache-buster for wakatime/stats.svg (daily)
+        run: |
+          set -euo pipefail
+
+          V="$(date -u +%Y%m%d)"  # changes once per day
+
+          sed -i -E "s#(wakatime/stats\.svg)\?v=[0-9]+#\1?v=$V#g" README.md
+          sed -i -E "s#(wakatime/stats\.svg)(\"|')#\1?v=$V\2#g" README.md
+
+      - name: Commit changes to repo
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add wakatime/stats.svg README.md
+          git diff --cached --quiet && echo "No changes" && exit 0
+
+          git commit -m "Update WakaTime stats SVG (cache-bust v=$(date -u +%Y%m%d))"
+          git push
