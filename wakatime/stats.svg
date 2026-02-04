@@ -53,7 +53,7 @@
       <text font-family="Calibri" x="245" y="306.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 2,690 hrs 26 mins</text>
     </g>
 <g transform="translate(32.5, 392.5) scale(1)">
-      <text x="212.5" y="22.5" font-size="12" text-anchor="middle" fill="#c9d1d9" font-weight="bold">This week, I mostly wrote in Binary</text>
+      <text x="212.5" y="22.5" font-size="12" text-anchor="middle" fill="#c9d1d9" font-weight="bold">This week, I mostly wrote in TypeScript</text>
       <line x1="70" y1="106.5" x2="371" y2="106.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
 <line x1="70" y1="91.5" x2="371" y2="91.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
 <line x1="70" y1="76.5" x2="371" y2="76.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
@@ -66,19 +66,19 @@
 <text x="62" y="49.5" font-size="9" text-anchor="end" fill="#c9d1d9">02:35</text>
 <text x="25" y="76.5" font-size="10" fill-opacity="1" text-anchor="middle" transform="rotate(-90, 25, 76.5)" fill="#c9d1d9">Time</text>
 
-                <rect x="70" y="85.50763870493752" width="30" height="20.99236129506248" fill="#4299ff" rx="2" ry="2">
+                <rect x="70" y="85.50763870493752" width="30" height="20.99236129506248" fill="#52caff" rx="2" ry="2">
                 <title>TypeScript: 54m</title>
                 </rect>
             
 <text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
 
-                <rect x="115" y="106.2046915925189" width="30" height="0.2953084074811038" fill="#83a8fd" rx="2" ry="2">
+                <rect x="115" y="106.2046915925189" width="30" height="0.2953084074811038" fill="#829aff" rx="2" ry="2">
                 <title>HTML: 00m</title>
                 </rect>
             
 <text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
 
-                <rect x="160" y="94.86816449776495" width="30" height="11.631835502235047" fill="#83a8fd" rx="2" ry="2">
+                <rect x="160" y="94.86816449776495" width="30" height="11.631835502235047" fill="#829aff" rx="2" ry="2">
                 <title>HTML: 30m</title>
                 </rect>
             
@@ -86,100 +86,100 @@
 <text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
 <text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
 
-                <rect x="295" y="96.86840566875527" width="30" height="9.631594331244733" fill="#4299ff" rx="2" ry="2">
+                <rect x="295" y="96.86840566875527" width="30" height="9.631594331244733" fill="#52caff" rx="2" ry="2">
                 <title>TypeScript: 25m</title>
                 </rect>
             
 
-                <rect x="295" y="96.71683115823542" width="30" height="0.15157451051984758" fill="#83a8fd" rx="2" ry="2">
+                <rect x="295" y="96.71683115823542" width="30" height="0.15157451051984758" fill="#829aff" rx="2" ry="2">
                 <title>HTML: 00m</title>
                 </rect>
             
 
-                <rect x="295" y="64.94052767117688" width="30" height="31.77630348705855" fill="#47bfef" rx="2" ry="2">
+                <rect x="295" y="64.94052767117688" width="30" height="31.77630348705855" fill="#45c2ff" rx="2" ry="2">
                 <title>Binary: 01:22</title>
                 </rect>
             
 
-                <rect x="295" y="53.76477577448766" width="30" height="11.175751896689219" fill="#4cc8ff" rx="2" ry="2">
+                <rect x="295" y="53.76477577448766" width="30" height="11.175751896689219" fill="#33acf0" rx="2" ry="2">
                 <title>C#: 29m</title>
                 </rect>
             
 
-                <rect x="295" y="48.960068929154566" width="30" height="4.804706845333094" fill="#7a7eff" rx="2" ry="2">
+                <rect x="295" y="48.960068929154566" width="30" height="4.804706845333094" fill="#519fe0" rx="2" ry="2">
                 <title>JSON: 12m</title>
                 </rect>
             
 
-                <rect x="295" y="46.86414198733779" width="30" height="2.09592694181678" fill="#42a5f5" rx="2" ry="2">
+                <rect x="295" y="46.86414198733779" width="30" height="2.09592694181678" fill="#3b9cea" rx="2" ry="2">
                 <title>CSHTML: 05m</title>
                 </rect>
             
 
-                <rect x="295" y="46.50000000000001" width="30" height="0.3641419873377842" fill="#69c5ff" rx="2" ry="2">
+                <rect x="295" y="46.50000000000001" width="30" height="0.3641419873377842" fill="#3496ff" rx="2" ry="2">
                 <title>XML: 00m</title>
                 </rect>
             
 <text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
 
-                <rect x="340" y="106.26971803840998" width="30" height="0.23028196159002345" fill="#4299ff" rx="2" ry="2">
-                <title>TypeScript: 00m</title>
+                <rect x="340" y="104.77225772485272" width="30" height="1.7277422751472826" fill="#52caff" rx="2" ry="2">
+                <title>TypeScript: 04m</title>
                 </rect>
             
 
-                <rect x="340" y="100.43146768113435" width="30" height="5.838250357275621" fill="#83a8fd" rx="2" ry="2">
-                <title>HTML: 15m</title>
+                <rect x="340" y="97.42530791593619" width="30" height="7.34694980891654" fill="#829aff" rx="2" ry="2">
+                <title>HTML: 19m</title>
                 </rect>
             
 
-                <rect x="340" y="91.64395089700041" width="30" height="8.787516784133947" fill="#4cc8ff" rx="2" ry="2">
-                <title>C#: 22m</title>
+                <rect x="340" y="84.2081247010095" width="30" height="13.217183214926687" fill="#33acf0" rx="2" ry="2">
+                <title>C#: 34m</title>
                 </rect>
             
 
-                <rect x="340" y="91.43144982498643" width="30" height="0.21250107201397928" fill="#7a7eff" rx="2" ry="2">
+                <rect x="340" y="83.99562362899552" width="30" height="0.21250107201397928" fill="#519fe0" rx="2" ry="2">
                 <title>JSON: 00m</title>
                 </rect>
             
 
-                <rect x="340" y="91.29399256676818" width="30" height="0.13745725821824883" fill="#42a5f5" rx="2" ry="2">
+                <rect x="340" y="83.85816637077727" width="30" height="0.13745725821824883" fill="#3b9cea" rx="2" ry="2">
                 <title>CSHTML: 00m</title>
                 </rect>
             
 
-                <rect x="340" y="88.39989419066359" width="30" height="2.8940983761045938" fill="#69c5ff" rx="2" ry="2">
+                <rect x="340" y="80.96406799467267" width="30" height="2.8940983761045938" fill="#3496ff" rx="2" ry="2">
                 <title>XML: 07m</title>
                 </rect>
             
 <text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
 
-            <circle cx="109.5" cy="150.5" r="5" fill="#4299ff" />
+            <circle cx="109.5" cy="150.5" r="5" fill="#52caff" />
             <text x="121.5" y="154.5" font-size="10" fill="#c9d1d9">TypeScript</text>
             
 
-            <circle cx="206.5" cy="150.5" r="5" fill="#83a8fd" />
+            <circle cx="206.5" cy="150.5" r="5" fill="#829aff" />
             <text x="218.5" y="154.5" font-size="10" fill="#c9d1d9">HTML</text>
             
 
-            <circle cx="303.5" cy="150.5" r="5" fill="#47bfef" />
+            <circle cx="303.5" cy="150.5" r="5" fill="#45c2ff" />
             <text x="315.5" y="154.5" font-size="10" fill="#c9d1d9">Binary</text>
             
 
-            <circle cx="109.5" cy="170.5" r="5" fill="#4cc8ff" />
+            <circle cx="109.5" cy="170.5" r="5" fill="#33acf0" />
             <text x="121.5" y="174.5" font-size="10" fill="#c9d1d9">C#</text>
             
 
-            <circle cx="206.5" cy="170.5" r="5" fill="#7a7eff" />
+            <circle cx="206.5" cy="170.5" r="5" fill="#519fe0" />
             <text x="218.5" y="174.5" font-size="10" fill="#c9d1d9">JSON</text>
             
 
-            <circle cx="303.5" cy="170.5" r="5" fill="#42a5f5" />
+            <circle cx="303.5" cy="170.5" r="5" fill="#3b9cea" />
             <text x="315.5" y="174.5" font-size="10" fill="#c9d1d9">CSHTML</text>
             
 
-            <circle cx="109.5" cy="190.5" r="5" fill="#69c5ff" />
+            <circle cx="109.5" cy="190.5" r="5" fill="#3496ff" />
             <text x="121.5" y="194.5" font-size="10" fill="#c9d1d9">XML</text>
             
-      <text x="212.5" y="222.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 4 hrs 48 mins</text>
+      <text x="212.5" y="222.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 5 hrs 7 mins</text>
     </g>
 </svg>
