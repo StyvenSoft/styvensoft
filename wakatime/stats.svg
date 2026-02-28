@@ -65,131 +65,131 @@
 <text x="62" y="64.5" font-size="9" text-anchor="end" fill="#c9d1d9">03:16</text>
 <text x="62" y="49.5" font-size="9" text-anchor="end" fill="#c9d1d9">04:22</text>
 <text x="25" y="76.5" font-size="10" fill-opacity="1" text-anchor="middle" transform="rotate(-90, 25, 76.5)" fill="#c9d1d9">Time</text>
-<text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
-<text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
+<text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
 
-                <rect x="160" y="102.82903117696779" width="30" height="3.6709688230322137" fill="#6ec1ff" rx="2" ry="2">
+                <rect x="115" y="102.82903117696779" width="30" height="3.6709688230322137" fill="#7dd2ff" rx="2" ry="2">
                 <title>VB.NET: 16m</title>
                 </rect>
             
-<text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
+<text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
 
-                <rect x="205" y="105.22099852141292" width="30" height="1.2790014785870794" fill="#6ec1ff" rx="2" ry="2">
+                <rect x="160" y="105.22099852141292" width="30" height="1.2790014785870794" fill="#7dd2ff" rx="2" ry="2">
                 <title>VB.NET: 05m</title>
                 </rect>
             
 
-                <rect x="205" y="95.19968814604687" width="30" height="10.021310375366062" fill="#618fd9" rx="2" ry="2">
+                <rect x="160" y="95.19968814604687" width="30" height="10.021310375366062" fill="#347cff" rx="2" ry="2">
                 <title>C#: 43m</title>
                 </rect>
             
 
-                <rect x="205" y="92.23095396759709" width="30" height="2.9687341784497776" fill="#39b9dc" rx="2" ry="2">
+                <rect x="160" y="92.23095396759709" width="30" height="2.9687341784497776" fill="#748eff" rx="2" ry="2">
                 <title>Binary: 12m</title>
                 </rect>
             
 
-                <rect x="205" y="92.10097751487385" width="30" height="0.12997645272323902" fill="#6bb0e0" rx="2" ry="2">
+                <rect x="160" y="92.10097751487385" width="30" height="0.12997645272323902" fill="#51b2d5" rx="2" ry="2">
                 <title>JSON: 00m</title>
                 </rect>
             
-<text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
+<text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
 
-                <rect x="250" y="100.10075317280696" width="30" height="6.399246827193042" fill="#6ec1ff" rx="2" ry="2">
+                <rect x="205" y="100.10075317280696" width="30" height="6.399246827193042" fill="#7dd2ff" rx="2" ry="2">
                 <title>VB.NET: 27m</title>
                 </rect>
             
 
-                <rect x="250" y="87.71903646650584" width="30" height="12.381716706301116" fill="#618fd9" rx="2" ry="2">
+                <rect x="205" y="87.71903646650584" width="30" height="12.381716706301116" fill="#347cff" rx="2" ry="2">
                 <title>C#: 54m</title>
                 </rect>
             
 
-                <rect x="250" y="69.08734592562189" width="30" height="18.631690540883955" fill="#39b9dc" rx="2" ry="2">
+                <rect x="205" y="69.08734592562189" width="30" height="18.631690540883955" fill="#748eff" rx="2" ry="2">
                 <title>Binary: 01:21</title>
                 </rect>
             
 
-                <rect x="250" y="56.67873645198111" width="30" height="12.408609473640784" fill="#6bb0e0" rx="2" ry="2">
+                <rect x="205" y="56.67873645198111" width="30" height="12.408609473640784" fill="#51b2d5" rx="2" ry="2">
                 <title>JSON: 54m</title>
                 </rect>
             
 
-                <rect x="250" y="47.06546633224539" width="30" height="9.61327011973572" fill="#5ca9f4" rx="2" ry="2">
+                <rect x="205" y="47.06546633224539" width="30" height="9.61327011973572" fill="#3d87ff" rx="2" ry="2">
                 <title>CSHTML: 42m</title>
                 </rect>
             
 
-                <rect x="250" y="46.50000000000001" width="30" height="0.5654663322453848" fill="#64aed3" rx="2" ry="2">
+                <rect x="205" y="46.50000000000001" width="30" height="0.5654663322453848" fill="#74caff" rx="2" ry="2">
                 <title>XML: 02m</title>
                 </rect>
             
-<text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
-<text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
+<text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
+<text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
 
-                <rect x="340" y="101.99186985773939" width="30" height="4.508130142260606" fill="#6bb0e0" rx="2" ry="2">
+                <rect x="295" y="101.99186985773939" width="30" height="4.508130142260606" fill="#51b2d5" rx="2" ry="2">
                 <title>JSON: 19m</title>
                 </rect>
             
 
-                <rect x="340" y="99.25363556128669" width="30" height="2.7382342964527013" fill="#519aff" rx="2" ry="2">
+                <rect x="295" y="99.25363556128669" width="30" height="2.7382342964527013" fill="#2b91f6" rx="2" ry="2">
                 <title>HTML: 11m</title>
                 </rect>
             
 
-                <rect x="340" y="96.63901785705676" width="30" height="2.614617704229933" fill="#2f9dfa" rx="2" ry="2">
+                <rect x="295" y="96.63901785705676" width="30" height="2.614617704229933" fill="#5e8eff" rx="2" ry="2">
                 <title>PlantUML: 11m</title>
                 </rect>
             
 
-                <rect x="340" y="94.06640181399271" width="30" height="2.5726160430640426" fill="#4183ff" rx="2" ry="2">
+                <rect x="295" y="94.06640181399271" width="30" height="2.5726160430640426" fill="#7e9eff" rx="2" ry="2">
                 <title>TypeScript: 11m</title>
                 </rect>
             
 
-                <rect x="340" y="93.84353852175992" width="30" height="0.22286329223278237" fill="#7fbeff" rx="2" ry="2">
+                <rect x="295" y="93.84353852175992" width="30" height="0.22286329223278237" fill="#578aff" rx="2" ry="2">
                 <title>Markdown: 00m</title>
                 </rect>
             
-<text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
+<text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
+<text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
 
-            <circle cx="109.5" cy="150.5" r="5" fill="#6ec1ff" />
+            <circle cx="109.5" cy="150.5" r="5" fill="#7dd2ff" />
             <text x="121.5" y="154.5" font-size="10" fill="#c9d1d9">VB.NET</text>
             
 
-            <circle cx="206.5" cy="150.5" r="5" fill="#618fd9" />
+            <circle cx="206.5" cy="150.5" r="5" fill="#347cff" />
             <text x="218.5" y="154.5" font-size="10" fill="#c9d1d9">C#</text>
             
 
-            <circle cx="303.5" cy="150.5" r="5" fill="#39b9dc" />
+            <circle cx="303.5" cy="150.5" r="5" fill="#748eff" />
             <text x="315.5" y="154.5" font-size="10" fill="#c9d1d9">Binary</text>
             
 
-            <circle cx="109.5" cy="170.5" r="5" fill="#6bb0e0" />
+            <circle cx="109.5" cy="170.5" r="5" fill="#51b2d5" />
             <text x="121.5" y="174.5" font-size="10" fill="#c9d1d9">JSON</text>
             
 
-            <circle cx="206.5" cy="170.5" r="5" fill="#5ca9f4" />
+            <circle cx="206.5" cy="170.5" r="5" fill="#3d87ff" />
             <text x="218.5" y="174.5" font-size="10" fill="#c9d1d9">CSHTML</text>
             
 
-            <circle cx="303.5" cy="170.5" r="5" fill="#64aed3" />
+            <circle cx="303.5" cy="170.5" r="5" fill="#74caff" />
             <text x="315.5" y="174.5" font-size="10" fill="#c9d1d9">XML</text>
             
 
-            <circle cx="109.5" cy="190.5" r="5" fill="#519aff" />
+            <circle cx="109.5" cy="190.5" r="5" fill="#2b91f6" />
             <text x="121.5" y="194.5" font-size="10" fill="#c9d1d9">HTML</text>
             
 
-            <circle cx="206.5" cy="190.5" r="5" fill="#2f9dfa" />
+            <circle cx="206.5" cy="190.5" r="5" fill="#5e8eff" />
             <text x="218.5" y="194.5" font-size="10" fill="#c9d1d9">PlantUML</text>
             
 
-            <circle cx="303.5" cy="190.5" r="5" fill="#4183ff" />
+            <circle cx="303.5" cy="190.5" r="5" fill="#7e9eff" />
             <text x="315.5" y="194.5" font-size="10" fill="#c9d1d9">TypeScript</text>
             
 
-            <circle cx="109.5" cy="210.5" r="5" fill="#7fbeff" />
+            <circle cx="109.5" cy="210.5" r="5" fill="#578aff" />
             <text x="121.5" y="214.5" font-size="10" fill="#c9d1d9">Markdown</text>
             
       <text x="212.5" y="242.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 6 hrs 36 mins</text>
