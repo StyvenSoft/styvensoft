@@ -68,39 +68,39 @@
 <text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
 <text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
 
-                <rect x="160" y="83.1830718081363" width="30" height="23.316928191863703" fill="#76c5ff" rx="2" ry="2">
+                <rect x="160" y="83.1830718081363" width="30" height="23.316928191863703" fill="#5695ff" rx="2" ry="2">
                 <title>C#: 24m</title>
                 </rect>
             
 
-                <rect x="160" y="76.27221721848413" width="30" height="6.910854589652172" fill="#688cd8" rx="2" ry="2">
+                <rect x="160" y="76.27221721848413" width="30" height="6.910854589652172" fill="#46ceeb" rx="2" ry="2">
                 <title>JSON: 07m</title>
                 </rect>
             
 
-                <rect x="160" y="74.24006869327691" width="30" height="2.0321485252072202" fill="#36b0ff" rx="2" ry="2">
+                <rect x="160" y="74.24006869327691" width="30" height="2.0321485252072202" fill="#4ac0ff" rx="2" ry="2">
                 <title>XML: 02m</title>
                 </rect>
             
 <text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
 
-                <rect x="205" y="106.43749044791467" width="30" height="0.06250955208533145" fill="#76c5ff" rx="2" ry="2">
+                <rect x="205" y="106.43749044791467" width="30" height="0.06250955208533145" fill="#5695ff" rx="2" ry="2">
                 <title>C#: 00m</title>
                 </rect>
             
 
-                <rect x="205" y="91.2746560318796" width="30" height="15.162834416035066" fill="#688cd8" rx="2" ry="2">
+                <rect x="205" y="91.2746560318796" width="30" height="15.162834416035066" fill="#46ceeb" rx="2" ry="2">
                 <title>JSON: 15m</title>
                 </rect>
             
 
-                <rect x="205" y="62.97759824614509" width="30" height="28.29705778573451" fill="#6faaff" rx="2" ry="2">
+                <rect x="205" y="62.97759824614509" width="30" height="28.29705778573451" fill="#50c7ff" rx="2" ry="2">
                 <title>SQL: 29m</title>
                 </rect>
             
 <text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
 
-                <rect x="250" y="46.5" width="30" height="60" fill="#6faaff" rx="2" ry="2">
+                <rect x="250" y="46.5" width="30" height="60" fill="#50c7ff" rx="2" ry="2">
                 <title>SQL: 01:01</title>
                 </rect>
             
@@ -108,23 +108,23 @@
 <text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
 <text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
 
-            <circle cx="148.5" cy="150.5" r="5" fill="#76c5ff" />
+            <circle cx="148.5" cy="150.5" r="5" fill="#5695ff" />
             <text x="160.5" y="154.5" font-size="10" fill="#c9d1d9">C#</text>
             
 
-            <circle cx="219.5" cy="150.5" r="5" fill="#688cd8" />
+            <circle cx="219.5" cy="150.5" r="5" fill="#46ceeb" />
             <text x="231.5" y="154.5" font-size="10" fill="#c9d1d9">JSON</text>
             
 
-            <circle cx="290.5" cy="150.5" r="5" fill="#36b0ff" />
+            <circle cx="290.5" cy="150.5" r="5" fill="#4ac0ff" />
             <text x="302.5" y="154.5" font-size="10" fill="#c9d1d9">XML</text>
             
 
-            <circle cx="148.5" cy="170.5" r="5" fill="#2bd2ff" />
+            <circle cx="148.5" cy="170.5" r="5" fill="#84abd3" />
             <text x="160.5" y="174.5" font-size="10" fill="#c9d1d9">Binary</text>
             
 
-            <circle cx="219.5" cy="170.5" r="5" fill="#6faaff" />
+            <circle cx="219.5" cy="170.5" r="5" fill="#50c7ff" />
             <text x="231.5" y="174.5" font-size="10" fill="#c9d1d9">SQL</text>
             
       <text x="212.5" y="202.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 2 hrs 20 mins</text>
