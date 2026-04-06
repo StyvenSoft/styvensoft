@@ -1,10 +1,10 @@
 
-<svg width="498" height="625" xmlns="http://www.w3.org/2000/svg" style="font-family:Calibri,sans-serif;">
+<svg width="498" height="605" xmlns="http://www.w3.org/2000/svg" style="font-family:Calibri,sans-serif;">
   <rect
     x="1"
     y="1"
     width="496"
-    height="623"
+    height="603"
     fill="#0d1117"
     stroke="#c9d1d9"
     stroke-width="2"
@@ -53,66 +53,52 @@
       <text font-family="Calibri" x="245" y="306.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 2,724 hrs 24 mins</text>
     </g>
 <g transform="translate(32.5, 392.5) scale(1)">
-      <text x="212.5" y="22.5" font-size="12" text-anchor="middle" fill="#c9d1d9" font-weight="bold">This week, I mostly wrote in SQL</text>
+      <text x="212.5" y="22.5" font-size="12" text-anchor="middle" fill="#c9d1d9" font-weight="bold">This week, I mostly wrote in JSON</text>
       <line x1="70" y1="106.5" x2="371" y2="106.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
 <line x1="70" y1="91.5" x2="371" y2="91.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
 <line x1="70" y1="76.5" x2="371" y2="76.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
-<line x1="70" y1="61.5" x2="371" y2="61.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
+<line x1="70" y1="61.50000000000001" x2="371" y2="61.50000000000001" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
 <line x1="70" y1="46.5" x2="371" y2="46.5" stroke="#c9d1d9" stroke-width="0.5" stroke-dasharray="2,2"/>
 <text x="62" y="109.5" font-size="9" text-anchor="end" fill="#c9d1d9">00:00</text>
-<text x="62" y="94.5" font-size="9" text-anchor="end" fill="#c9d1d9">24m</text>
-<text x="62" y="79.5" font-size="9" text-anchor="end" fill="#c9d1d9">48m</text>
-<text x="62" y="64.5" font-size="9" text-anchor="end" fill="#c9d1d9">01:12</text>
-<text x="62" y="49.5" font-size="9" text-anchor="end" fill="#c9d1d9">01:37</text>
+<text x="62" y="94.5" font-size="9" text-anchor="end" fill="#c9d1d9">07m</text>
+<text x="62" y="79.5" font-size="9" text-anchor="end" fill="#c9d1d9">14m</text>
+<text x="62" y="64.5" font-size="9" text-anchor="end" fill="#c9d1d9">21m</text>
+<text x="62" y="49.5" font-size="9" text-anchor="end" fill="#c9d1d9">28m</text>
 <text x="25" y="76.5" font-size="10" fill-opacity="1" text-anchor="middle" transform="rotate(-90, 25, 76.5)" fill="#c9d1d9">Time</text>
 
-                <rect x="70" y="59.084982781920054" width="30" height="47.415017218079946" fill="#5c9aff" rx="2" ry="2">
-                <title>SQL: 01:16</title>
-                </rect>
-            
-
-                <rect x="70" y="46.50000000000001" width="30" height="12.584982781920045" fill="#3a85ff" rx="2" ry="2">
-                <title>C#: 20m</title>
-                </rect>
-            
-<text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
-
-                <rect x="115" y="104.58136501702788" width="30" height="1.918634982972124" fill="#3a85ff" rx="2" ry="2">
-                <title>C#: 03m</title>
-                </rect>
-            
-
-                <rect x="115" y="96.58987941949295" width="30" height="7.9914855975349255" fill="#82c7ff" rx="2" ry="2">
+                <rect x="70" y="79.60043505209609" width="30" height="26.899564947903905" fill="#38bfff" rx="2" ry="2">
                 <title>JSON: 12m</title>
                 </rect>
             
 
-                <rect x="115" y="88.67483677595838" width="30" height="7.915042643534564" fill="#36b0d5" rx="2" ry="2">
+                <rect x="70" y="52.958179234121246" width="30" height="26.642255817974842" fill="#7fcfe9" rx="2" ry="2">
                 <title>Binary: 12m</title>
                 </rect>
             
-<text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
-<text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
-<text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
-<text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
-<text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
-<text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
 
-            <circle cx="148.5" cy="150.5" r="5" fill="#5c9aff" />
-            <text x="160.5" y="154.5" font-size="10" fill="#c9d1d9">SQL</text>
+                <rect x="70" y="46.499999999999986" width="30" height="6.458179234121257" fill="#828ddf" rx="2" ry="2">
+                <title>C#: 03m</title>
+                </rect>
+            
+<text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
+<text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
+<text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
+<text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
+<text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
+<text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
+<text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
+
+            <circle cx="148.5" cy="150.5" r="5" fill="#38bfff" />
+            <text x="160.5" y="154.5" font-size="10" fill="#c9d1d9">JSON</text>
             
 
-            <circle cx="219.5" cy="150.5" r="5" fill="#3a85ff" />
-            <text x="231.5" y="154.5" font-size="10" fill="#c9d1d9">C#</text>
+            <circle cx="219.5" cy="150.5" r="5" fill="#7fcfe9" />
+            <text x="231.5" y="154.5" font-size="10" fill="#c9d1d9">Binary</text>
             
 
-            <circle cx="290.5" cy="150.5" r="5" fill="#82c7ff" />
-            <text x="302.5" y="154.5" font-size="10" fill="#c9d1d9">JSON</text>
+            <circle cx="290.5" cy="150.5" r="5" fill="#828ddf" />
+            <text x="302.5" y="154.5" font-size="10" fill="#c9d1d9">C#</text>
             
-
-            <circle cx="148.5" cy="170.5" r="5" fill="#36b0d5" />
-            <text x="160.5" y="174.5" font-size="10" fill="#c9d1d9">Binary</text>
-            
-      <text x="212.5" y="202.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 2 hrs 6 mins</text>
+      <text x="212.5" y="182.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 28 mins</text>
     </g>
 </svg>
