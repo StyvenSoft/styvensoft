@@ -27,7 +27,7 @@ I am a passionate **Software & Web Developer** dedicated to building modern, eff
 
 <p align="left">
   <a href="https://wakatime.com/@steveenecheverri">
-    <img src="wakatime/stats.svg?v=20260807" alt="StyvenSoft WakaTime Stats" height="850" />
+    <img src="wakatime/stats.svg?v=20260808" alt="StyvenSoft WakaTime Stats" height="850" />
   </a>
 </p>
 
