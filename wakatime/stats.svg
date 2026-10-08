@@ -66,304 +66,304 @@
 <text x="62" y="49.5" font-size="9" text-anchor="end" fill="#c9d1d9">03:57</text>
 <text x="25" y="76.5" font-size="10" fill-opacity="1" text-anchor="middle" transform="rotate(-90, 25, 76.5)" fill="#c9d1d9">Time</text>
 
-                <rect x="70" y="102.51231542545453" width="30" height="3.987684574545475" fill="#6ca3f7" rx="2" ry="2">
+                <rect x="70" y="102.51231542545453" width="30" height="3.987684574545475" fill="#69c5e3" rx="2" ry="2">
                 <title>Markdown: 15m</title>
                 </rect>
             
 
-                <rect x="70" y="98.97970521968631" width="30" height="3.532610205768215" fill="#2ba6fc" rx="2" ry="2">
+                <rect x="70" y="98.97970521968631" width="30" height="3.532610205768215" fill="#327cda" rx="2" ry="2">
                 <title>C#: 13m</title>
                 </rect>
             
 
-                <rect x="70" y="95.69290429237405" width="30" height="3.2868009273122554" fill="#6fb1ff" rx="2" ry="2">
+                <rect x="70" y="95.69290429237405" width="30" height="3.2868009273122554" fill="#39abff" rx="2" ry="2">
                 <title>Other: 13m</title>
                 </rect>
             
 
-                <rect x="70" y="95.35045562104425" width="30" height="0.34244867132980517" fill="#7388ff" rx="2" ry="2">
+                <rect x="70" y="95.35045562104425" width="30" height="0.34244867132980517" fill="#7f8ef2" rx="2" ry="2">
                 <title>JSON: 01m</title>
                 </rect>
             
 <text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
 
-                <rect x="115" y="95.96337941810147" width="30" height="10.536620581898537" fill="#6ca3f7" rx="2" ry="2">
+                <rect x="115" y="95.96337941810147" width="30" height="10.536620581898537" fill="#69c5e3" rx="2" ry="2">
                 <title>Markdown: 41m</title>
                 </rect>
             
 
-                <rect x="115" y="94.48511938084023" width="30" height="1.4782600372612298" fill="#2ba6fc" rx="2" ry="2">
+                <rect x="115" y="94.48511938084023" width="30" height="1.4782600372612298" fill="#327cda" rx="2" ry="2">
                 <title>C#: 05m</title>
                 </rect>
             
 
-                <rect x="115" y="91.90453662137183" width="30" height="2.5805827594683937" fill="#6fb1ff" rx="2" ry="2">
+                <rect x="115" y="91.90453662137183" width="30" height="2.5805827594683937" fill="#39abff" rx="2" ry="2">
                 <title>Other: 10m</title>
                 </rect>
             
 
-                <rect x="115" y="91.52974447812242" width="30" height="0.37479214324941396" fill="#4787f5" rx="2" ry="2">
+                <rect x="115" y="91.52974447812242" width="30" height="0.37479214324941396" fill="#43b1ff" rx="2" ry="2">
                 <title>YAML: 01m</title>
                 </rect>
             
 
-                <rect x="115" y="91.49579370420454" width="30" height="0.03395077391788668" fill="#549cff" rx="2" ry="2">
+                <rect x="115" y="91.49579370420454" width="30" height="0.03395077391788668" fill="#33bcf1" rx="2" ry="2">
                 <title>Git Config: 00m</title>
                 </rect>
             
 <text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
 
-                <rect x="160" y="93.26842840721326" width="30" height="13.231571592786729" fill="#6ca3f7" rx="2" ry="2">
+                <rect x="160" y="93.26842840721326" width="30" height="13.231571592786729" fill="#69c5e3" rx="2" ry="2">
                 <title>Markdown: 52m</title>
                 </rect>
             
 
-                <rect x="160" y="83.702539123185" width="30" height="9.565889284028259" fill="#6fb1ff" rx="2" ry="2">
+                <rect x="160" y="83.702539123185" width="30" height="9.565889284028259" fill="#39abff" rx="2" ry="2">
                 <title>Other: 37m</title>
                 </rect>
             
 
-                <rect x="160" y="81.26709907749196" width="30" height="2.4354400456930416" fill="#4787f5" rx="2" ry="2">
+                <rect x="160" y="81.26709907749196" width="30" height="2.4354400456930416" fill="#43b1ff" rx="2" ry="2">
                 <title>YAML: 09m</title>
                 </rect>
             
 
-                <rect x="160" y="75.08753234503885" width="30" height="6.179566732453113" fill="#808cff" rx="2" ry="2">
+                <rect x="160" y="75.08753234503885" width="30" height="6.179566732453113" fill="#83c1fd" rx="2" ry="2">
                 <title>TypeScript: 24m</title>
                 </rect>
             
 
-                <rect x="160" y="70.38955298555825" width="30" height="4.697979359480592" fill="#69beff" rx="2" ry="2">
+                <rect x="160" y="70.38955298555825" width="30" height="4.697979359480592" fill="#689be2" rx="2" ry="2">
                 <title>Bash: 18m</title>
                 </rect>
             
 
-                <rect x="160" y="67.92816815389847" width="30" height="2.461384831659783" fill="#3797d5" rx="2" ry="2">
+                <rect x="160" y="67.92816815389847" width="30" height="2.461384831659783" fill="#6388d6" rx="2" ry="2">
                 <title>Prisma: 09m</title>
                 </rect>
             
 
-                <rect x="160" y="67.92727205540473" width="30" height="0.0008960984937434773" fill="#50a2f6" rx="2" ry="2">
+                <rect x="160" y="67.92727205540473" width="30" height="0.0008960984937434773" fill="#5b90ff" rx="2" ry="2">
                 <title>CSS: 00m</title>
                 </rect>
             
 <text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
 
-                <rect x="205" y="98.64627727319352" width="30" height="7.8537227268064775" fill="#6ca3f7" rx="2" ry="2">
+                <rect x="205" y="98.64627727319352" width="30" height="7.8537227268064775" fill="#69c5e3" rx="2" ry="2">
                 <title>Markdown: 31m</title>
                 </rect>
             
 
-                <rect x="205" y="87.58448407546875" width="30" height="11.061793197724764" fill="#6fb1ff" rx="2" ry="2">
+                <rect x="205" y="87.58448407546875" width="30" height="11.061793197724764" fill="#39abff" rx="2" ry="2">
                 <title>Other: 43m</title>
                 </rect>
             
 
-                <rect x="205" y="83.24735053760959" width="30" height="4.337133537859158" fill="#7388ff" rx="2" ry="2">
+                <rect x="205" y="83.24735053760959" width="30" height="4.337133537859158" fill="#7f8ef2" rx="2" ry="2">
                 <title>JSON: 17m</title>
                 </rect>
             
 
-                <rect x="205" y="83.24698873258394" width="30" height="0.00036180502564290635" fill="#4787f5" rx="2" ry="2">
+                <rect x="205" y="83.24698873258394" width="30" height="0.00036180502564290635" fill="#43b1ff" rx="2" ry="2">
                 <title>YAML: 00m</title>
                 </rect>
             
 
-                <rect x="205" y="79.66646943701257" width="30" height="3.5805192955713845" fill="#808cff" rx="2" ry="2">
+                <rect x="205" y="79.66646943701257" width="30" height="3.5805192955713845" fill="#83c1fd" rx="2" ry="2">
                 <title>TypeScript: 14m</title>
                 </rect>
             
 
-                <rect x="205" y="74.4911472446887" width="30" height="5.175322192323861" fill="#69beff" rx="2" ry="2">
+                <rect x="205" y="74.4911472446887" width="30" height="5.175322192323861" fill="#689be2" rx="2" ry="2">
                 <title>Bash: 20m</title>
                 </rect>
             
 
-                <rect x="205" y="73.44701580399992" width="30" height="1.0441314406887907" fill="#3797d5" rx="2" ry="2">
+                <rect x="205" y="73.44701580399992" width="30" height="1.0441314406887907" fill="#6388d6" rx="2" ry="2">
                 <title>Prisma: 04m</title>
                 </rect>
             
 
-                <rect x="205" y="73.4454423728419" width="30" height="0.001573431158028453" fill="#50a2f6" rx="2" ry="2">
+                <rect x="205" y="73.4454423728419" width="30" height="0.001573431158028453" fill="#5b90ff" rx="2" ry="2">
                 <title>CSS: 00m</title>
                 </rect>
             
 <text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
 
-                <rect x="250" y="93.01588849931453" width="30" height="13.484111500685477" fill="#6ca3f7" rx="2" ry="2">
+                <rect x="250" y="93.01588849931453" width="30" height="13.484111500685477" fill="#69c5e3" rx="2" ry="2">
                 <title>Markdown: 53m</title>
                 </rect>
             
 
-                <rect x="250" y="66.92929679282616" width="30" height="26.08659170648836" fill="#2ba6fc" rx="2" ry="2">
+                <rect x="250" y="66.92929679282616" width="30" height="26.08659170648836" fill="#327cda" rx="2" ry="2">
                 <title>C#: 01:43</title>
                 </rect>
             
 
-                <rect x="250" y="64.16436494903391" width="30" height="2.764931843792261" fill="#7388ff" rx="2" ry="2">
+                <rect x="250" y="64.16436494903391" width="30" height="2.764931843792261" fill="#7f8ef2" rx="2" ry="2">
                 <title>JSON: 10m</title>
                 </rect>
             
 
-                <rect x="250" y="63.553145842632404" width="30" height="0.6112191064015075" fill="#4787f5" rx="2" ry="2">
+                <rect x="250" y="63.553145842632404" width="30" height="0.6112191064015075" fill="#43b1ff" rx="2" ry="2">
                 <title>YAML: 02m</title>
                 </rect>
             
 
-                <rect x="250" y="56.28915268651832" width="30" height="7.263993156114086" fill="#808cff" rx="2" ry="2">
+                <rect x="250" y="56.28915268651832" width="30" height="7.263993156114086" fill="#83c1fd" rx="2" ry="2">
                 <title>TypeScript: 28m</title>
                 </rect>
             
 
-                <rect x="250" y="54.73245290740826" width="30" height="1.5566997791100599" fill="#69beff" rx="2" ry="2">
+                <rect x="250" y="54.73245290740826" width="30" height="1.5566997791100599" fill="#689be2" rx="2" ry="2">
                 <title>Bash: 06m</title>
                 </rect>
             
 
-                <rect x="250" y="54.63773151028791" width="30" height="0.09472139712034926" fill="#3797d5" rx="2" ry="2">
+                <rect x="250" y="54.63773151028791" width="30" height="0.09472139712034926" fill="#6388d6" rx="2" ry="2">
                 <title>Prisma: 00m</title>
                 </rect>
             
 
-                <rect x="250" y="53.32543523303481" width="30" height="1.3122962772530946" fill="#50a2f6" rx="2" ry="2">
+                <rect x="250" y="53.32543523303481" width="30" height="1.3122962772530946" fill="#5b90ff" rx="2" ry="2">
                 <title>CSS: 05m</title>
                 </rect>
             
 
-                <rect x="250" y="46.5" width="30" height="6.825435233034812" fill="#66c8ff" rx="2" ry="2">
+                <rect x="250" y="46.5" width="30" height="6.825435233034812" fill="#44a5d3" rx="2" ry="2">
                 <title>Binary: 27m</title>
                 </rect>
             
 <text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
 
-                <rect x="295" y="83.41123980015547" width="30" height="23.088760199844526" fill="#6ca3f7" rx="2" ry="2">
+                <rect x="295" y="83.41123980015547" width="30" height="23.088760199844526" fill="#69c5e3" rx="2" ry="2">
                 <title>Markdown: 01:31</title>
                 </rect>
             
 
-                <rect x="295" y="82.74218237407328" width="30" height="0.6690574260821898" fill="#6fb1ff" rx="2" ry="2">
+                <rect x="295" y="82.74218237407328" width="30" height="0.6690574260821898" fill="#39abff" rx="2" ry="2">
                 <title>Other: 02m</title>
                 </rect>
             
 
-                <rect x="295" y="82.54996714364772" width="30" height="0.19221523042556685" fill="#7388ff" rx="2" ry="2">
+                <rect x="295" y="82.54996714364772" width="30" height="0.19221523042556685" fill="#7f8ef2" rx="2" ry="2">
                 <title>JSON: 00m</title>
                 </rect>
             
 
-                <rect x="295" y="81.58303900558187" width="30" height="0.9669281380658491" fill="#4787f5" rx="2" ry="2">
+                <rect x="295" y="81.58303900558187" width="30" height="0.9669281380658491" fill="#43b1ff" rx="2" ry="2">
                 <title>YAML: 03m</title>
                 </rect>
             
 
-                <rect x="295" y="72.12981833075992" width="30" height="9.45322067482195" fill="#808cff" rx="2" ry="2">
+                <rect x="295" y="72.12981833075992" width="30" height="9.45322067482195" fill="#83c1fd" rx="2" ry="2">
                 <title>TypeScript: 37m</title>
                 </rect>
             
 
-                <rect x="295" y="68.5285793869177" width="30" height="3.601238943842214" fill="#69beff" rx="2" ry="2">
+                <rect x="295" y="68.5285793869177" width="30" height="3.601238943842214" fill="#689be2" rx="2" ry="2">
                 <title>Bash: 14m</title>
                 </rect>
             
 
-                <rect x="295" y="68.42002946515446" width="30" height="0.10854992176323569" fill="#7884df" rx="2" ry="2">
+                <rect x="295" y="68.42002946515446" width="30" height="0.10854992176323569" fill="#2eb7e6" rx="2" ry="2">
                 <title>JavaScript: 00m</title>
                 </rect>
             
 <text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
 
-                <rect x="340" y="95.4014331077503" width="30" height="11.098566892249703" fill="#6ca3f7" rx="2" ry="2">
-                <title>Markdown: 43m</title>
+                <rect x="340" y="94.42597310233558" width="30" height="12.074026897664432" fill="#69c5e3" rx="2" ry="2">
+                <title>Markdown: 47m</title>
                 </rect>
             
 
-                <rect x="340" y="86.12673633012831" width="30" height="9.274696777621985" fill="#2ba6fc" rx="2" ry="2">
+                <rect x="340" y="85.15127632471359" width="30" height="9.274696777621985" fill="#327cda" rx="2" ry="2">
                 <title>C#: 36m</title>
                 </rect>
             
 
-                <rect x="340" y="85.19892099814854" width="30" height="0.9278153319797781" fill="#6fb1ff" rx="2" ry="2">
-                <title>Other: 03m</title>
+                <rect x="340" y="82.91581348935671" width="30" height="2.2354628353568797" fill="#39abff" rx="2" ry="2">
+                <title>Other: 08m</title>
                 </rect>
             
 
-                <rect x="340" y="84.72643721521372" width="30" height="0.47248378293481386" fill="#7388ff" rx="2" ry="2">
+                <rect x="340" y="82.44332970642189" width="30" height="0.47248378293481386" fill="#7f8ef2" rx="2" ry="2">
                 <title>JSON: 01m</title>
                 </rect>
             
 
-                <rect x="340" y="82.83937158437504" width="30" height="1.8870656308386704" fill="#808cff" rx="2" ry="2">
-                <title>TypeScript: 07m</title>
+                <rect x="340" y="70.53274191853887" width="30" height="11.910587787883022" fill="#83c1fd" rx="2" ry="2">
+                <title>TypeScript: 47m</title>
                 </rect>
             
 
-                <rect x="340" y="82.28349418731698" width="30" height="0.555877397058063" fill="#66c8ff" rx="2" ry="2">
+                <rect x="340" y="69.9768645214808" width="30" height="0.555877397058063" fill="#44a5d3" rx="2" ry="2">
                 <title>Binary: 02m</title>
                 </rect>
             
 
-                <rect x="340" y="82.1269251659876" width="30" height="0.15656902132937678" fill="#7884df" rx="2" ry="2">
+                <rect x="340" y="69.82029550015143" width="30" height="0.15656902132937678" fill="#2eb7e6" rx="2" ry="2">
                 <title>JavaScript: 00m</title>
                 </rect>
             
 
-                <rect x="340" y="81.80020260672651" width="30" height="0.3267225592610901" fill="#6997e1" rx="2" ry="2">
-                <title>SQL: 01m</title>
+                <rect x="340" y="68.78367361726232" width="30" height="1.0366218828891092" fill="#5090ff" rx="2" ry="2">
+                <title>SQL: 04m</title>
                 </rect>
             
 <text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
 
-            <circle cx="109.5" cy="150.5" r="5" fill="#6ca3f7" />
+            <circle cx="109.5" cy="150.5" r="5" fill="#69c5e3" />
             <text x="121.5" y="154.5" font-size="10" fill="#c9d1d9">Markdown</text>
             
 
-            <circle cx="206.5" cy="150.5" r="5" fill="#2ba6fc" />
+            <circle cx="206.5" cy="150.5" r="5" fill="#327cda" />
             <text x="218.5" y="154.5" font-size="10" fill="#c9d1d9">C#</text>
             
 
-            <circle cx="303.5" cy="150.5" r="5" fill="#6fb1ff" />
+            <circle cx="303.5" cy="150.5" r="5" fill="#39abff" />
             <text x="315.5" y="154.5" font-size="10" fill="#c9d1d9">Other</text>
             
 
-            <circle cx="109.5" cy="170.5" r="5" fill="#7388ff" />
+            <circle cx="109.5" cy="170.5" r="5" fill="#7f8ef2" />
             <text x="121.5" y="174.5" font-size="10" fill="#c9d1d9">JSON</text>
             
 
-            <circle cx="206.5" cy="170.5" r="5" fill="#4787f5" />
+            <circle cx="206.5" cy="170.5" r="5" fill="#43b1ff" />
             <text x="218.5" y="174.5" font-size="10" fill="#c9d1d9">YAML</text>
             
 
-            <circle cx="303.5" cy="170.5" r="5" fill="#549cff" />
+            <circle cx="303.5" cy="170.5" r="5" fill="#33bcf1" />
             <text x="315.5" y="174.5" font-size="10" fill="#c9d1d9">Git Config</text>
             
 
-            <circle cx="109.5" cy="190.5" r="5" fill="#808cff" />
+            <circle cx="109.5" cy="190.5" r="5" fill="#83c1fd" />
             <text x="121.5" y="194.5" font-size="10" fill="#c9d1d9">TypeScript</text>
             
 
-            <circle cx="206.5" cy="190.5" r="5" fill="#69beff" />
+            <circle cx="206.5" cy="190.5" r="5" fill="#689be2" />
             <text x="218.5" y="194.5" font-size="10" fill="#c9d1d9">Bash</text>
             
 
-            <circle cx="303.5" cy="190.5" r="5" fill="#3797d5" />
+            <circle cx="303.5" cy="190.5" r="5" fill="#6388d6" />
             <text x="315.5" y="194.5" font-size="10" fill="#c9d1d9">Prisma</text>
             
 
-            <circle cx="109.5" cy="210.5" r="5" fill="#50a2f6" />
+            <circle cx="109.5" cy="210.5" r="5" fill="#5b90ff" />
             <text x="121.5" y="214.5" font-size="10" fill="#c9d1d9">CSS</text>
             
 
-            <circle cx="206.5" cy="210.5" r="5" fill="#66c8ff" />
+            <circle cx="206.5" cy="210.5" r="5" fill="#44a5d3" />
             <text x="218.5" y="214.5" font-size="10" fill="#c9d1d9">Binary</text>
             
 
-            <circle cx="303.5" cy="210.5" r="5" fill="#7884df" />
+            <circle cx="303.5" cy="210.5" r="5" fill="#2eb7e6" />
             <text x="315.5" y="214.5" font-size="10" fill="#c9d1d9">JavaScript</text>
             
 
-            <circle cx="109.5" cy="230.5" r="5" fill="#6997e1" />
+            <circle cx="109.5" cy="230.5" r="5" fill="#5090ff" />
             <text x="121.5" y="234.5" font-size="10" fill="#c9d1d9">SQL</text>
             
-      <text x="212.5" y="262.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 14 hrs 33 mins</text>
+      <text x="212.5" y="262.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 15 hrs 25 mins</text>
       </g>
 </svg>
