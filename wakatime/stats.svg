@@ -48,9 +48,9 @@
 <rect x="75" y="238.5" width="36.97631537895428" height="12" fill="#58a6ff" rx="2" ry="2" />
 <text font-family="Calibri" x="117.97631537895428" y="247.5" font-size="9" fill="#c9d1d9">87:46    |    3.4%</text>
 <text font-family="Calibri" x="67" y="271.5" font-size="10" text-anchor="end" fill="#c9d1d9">Markdown</text>
-<rect x="75" y="262.5" width="31.634954809820012" height="12" fill="#58a6ff" rx="2" ry="2" />
-<text font-family="Calibri" x="112.63495480982002" y="271.5" font-size="9" fill="#c9d1d9">75:05    |    2.9%</text>
-      <text font-family="Calibri" x="245" y="306.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 2,937 hrs 39 mins</text>
+<rect x="75" y="262.5" width="31.79184714375771" height="12" fill="#58a6ff" rx="2" ry="2" />
+<text font-family="Calibri" x="112.7918471437577" y="271.5" font-size="9" fill="#c9d1d9">75:27    |    2.9%</text>
+      <text font-family="Calibri" x="245" y="306.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 2,938 hrs 17 mins</text>
       </g>
 <g transform="translate(32.5, 392.5) scale(1)">
         <text x="212.5" y="22.5" font-size="12" text-anchor="middle" fill="#c9d1d9" font-weight="bold">This week, I mostly wrote in TypeScript</text>
@@ -66,124 +66,128 @@
 <text x="62" y="49.5" font-size="9" text-anchor="end" fill="#c9d1d9">02:26</text>
 <text x="25" y="76.5" font-size="10" fill-opacity="1" text-anchor="middle" transform="rotate(-90, 25, 76.5)" fill="#c9d1d9">Time</text>
 
-                <rect x="70" y="68.55761023241692" width="30" height="37.94238976758309" fill="#719ef6" rx="2" ry="2">
+                <rect x="70" y="68.55761023241692" width="30" height="37.94238976758309" fill="#3b7fff" rx="2" ry="2">
                 <title>TypeScript: 01:32</title>
                 </rect>
             
 
-                <rect x="70" y="60.215700189163314" width="30" height="8.341910043253607" fill="#3a79fa" rx="2" ry="2">
+                <rect x="70" y="60.215700189163314" width="30" height="8.341910043253607" fill="#76bbee" rx="2" ry="2">
                 <title>Other: 20m</title>
                 </rect>
             
 
-                <rect x="70" y="54.17395022119205" width="30" height="6.041749967971265" fill="#41c8ff" rx="2" ry="2">
+                <rect x="70" y="54.17395022119205" width="30" height="6.041749967971265" fill="#34a0e0" rx="2" ry="2">
                 <title>Bash: 14m</title>
                 </rect>
             
 
-                <rect x="70" y="52.626851527554074" width="30" height="1.5470986936379763" fill="#4db7ec" rx="2" ry="2">
+                <rect x="70" y="52.626851527554074" width="30" height="1.5470986936379763" fill="#4fa5d7" rx="2" ry="2">
                 <title>JSON: 03m</title>
                 </rect>
             
 <text x="85" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Thu</text>
 
-                <rect x="115" y="95.04116980335498" width="30" height="11.458830196645028" fill="#719ef6" rx="2" ry="2">
+                <rect x="115" y="95.04116980335498" width="30" height="11.458830196645028" fill="#3b7fff" rx="2" ry="2">
                 <title>TypeScript: 27m</title>
                 </rect>
             
 
-                <rect x="115" y="91.19393295986994" width="30" height="3.847236843485036" fill="#3a79fa" rx="2" ry="2">
+                <rect x="115" y="91.19393295986994" width="30" height="3.847236843485036" fill="#76bbee" rx="2" ry="2">
                 <title>Other: 09m</title>
                 </rect>
             
 
-                <rect x="115" y="88.4374352301487" width="30" height="2.7564977297212514" fill="#7586f0" rx="2" ry="2">
+                <rect x="115" y="88.4374352301487" width="30" height="2.7564977297212514" fill="#47a3ff" rx="2" ry="2">
                 <title>Markdown: 06m</title>
                 </rect>
             
 <text x="130" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Fri</text>
 
-                <rect x="160" y="65.173324236109" width="30" height="41.326675763891004" fill="#719ef6" rx="2" ry="2">
+                <rect x="160" y="65.173324236109" width="30" height="41.326675763891004" fill="#3b7fff" rx="2" ry="2">
                 <title>TypeScript: 01:40</title>
                 </rect>
             
 
-                <rect x="160" y="63.75127579224956" width="30" height="1.4220484438594418" fill="#588cd6" rx="2" ry="2">
+                <rect x="160" y="63.75127579224956" width="30" height="1.4220484438594418" fill="#759ef6" rx="2" ry="2">
                 <title>JavaScript: 03m</title>
                 </rect>
             
 <text x="175" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sat</text>
 
-                <rect x="205" y="65.71347915031987" width="30" height="40.78652084968014" fill="#719ef6" rx="2" ry="2">
+                <rect x="205" y="65.71347915031987" width="30" height="40.78652084968014" fill="#3b7fff" rx="2" ry="2">
                 <title>TypeScript: 01:39</title>
                 </rect>
             
 
-                <rect x="205" y="62.153030556552274" width="30" height="3.5604485937675956" fill="#3a79fa" rx="2" ry="2">
+                <rect x="205" y="62.153030556552274" width="30" height="3.5604485937675956" fill="#76bbee" rx="2" ry="2">
                 <title>Other: 08m</title>
                 </rect>
             
 
-                <rect x="205" y="46.500000000000014" width="30" height="15.653030556552256" fill="#7586f0" rx="2" ry="2">
+                <rect x="205" y="46.500000000000014" width="30" height="15.653030556552256" fill="#47a3ff" rx="2" ry="2">
                 <title>Markdown: 38m</title>
                 </rect>
             
 <text x="220" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Sun</text>
 
-                <rect x="250" y="65.3967366253249" width="30" height="41.103263374675095" fill="#719ef6" rx="2" ry="2">
+                <rect x="250" y="65.3967366253249" width="30" height="41.103263374675095" fill="#3b7fff" rx="2" ry="2">
                 <title>TypeScript: 01:40</title>
                 </rect>
             
 
-                <rect x="250" y="50.51479613539698" width="30" height="14.88194048992793" fill="#3a79fa" rx="2" ry="2">
+                <rect x="250" y="50.51479613539698" width="30" height="14.88194048992793" fill="#76bbee" rx="2" ry="2">
                 <title>Other: 36m</title>
                 </rect>
             
 
-                <rect x="250" y="47.25910835651333" width="30" height="3.2556877788836487" fill="#7586f0" rx="2" ry="2">
+                <rect x="250" y="47.25910835651333" width="30" height="3.2556877788836487" fill="#47a3ff" rx="2" ry="2">
                 <title>Markdown: 07m</title>
                 </rect>
             
 <text x="265" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Mon</text>
 
-                <rect x="295" y="97.33101001530541" width="30" height="9.168989984694594" fill="#7586f0" rx="2" ry="2">
+                <rect x="295" y="97.33101001530541" width="30" height="9.168989984694594" fill="#47a3ff" rx="2" ry="2">
                 <title>Markdown: 22m</title>
                 </rect>
             
 
-                <rect x="295" y="90.95059892593179" width="30" height="6.3804110893736175" fill="#56d0ff" rx="2" ry="2">
+                <rect x="295" y="90.95059892593179" width="30" height="6.3804110893736175" fill="#5c7fe9" rx="2" ry="2">
                 <title>Python: 15m</title>
                 </rect>
             
 <text x="310" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Tue</text>
 <text x="355" y="118.5" font-weight="bold" font-size="10" text-anchor="middle" fill="#c9d1d9">Wed</text>
 
-            <circle cx="109.5" cy="150.5" r="5" fill="#719ef6" />
+            <circle cx="109.5" cy="150.5" r="5" fill="#3b7fff" />
             <text x="121.5" y="154.5" font-size="10" fill="#c9d1d9">TypeScript</text>
             
 
-            <circle cx="206.5" cy="150.5" r="5" fill="#3a79fa" />
+            <circle cx="206.5" cy="150.5" r="5" fill="#76bbee" />
             <text x="218.5" y="154.5" font-size="10" fill="#c9d1d9">Other</text>
             
 
-            <circle cx="303.5" cy="150.5" r="5" fill="#41c8ff" />
+            <circle cx="303.5" cy="150.5" r="5" fill="#34a0e0" />
             <text x="315.5" y="154.5" font-size="10" fill="#c9d1d9">Bash</text>
             
 
-            <circle cx="109.5" cy="170.5" r="5" fill="#4db7ec" />
+            <circle cx="109.5" cy="170.5" r="5" fill="#4fa5d7" />
             <text x="121.5" y="174.5" font-size="10" fill="#c9d1d9">JSON</text>
             
 
-            <circle cx="206.5" cy="170.5" r="5" fill="#7586f0" />
+            <circle cx="206.5" cy="170.5" r="5" fill="#47a3ff" />
             <text x="218.5" y="174.5" font-size="10" fill="#c9d1d9">Markdown</text>
             
 
-            <circle cx="303.5" cy="170.5" r="5" fill="#588cd6" />
+            <circle cx="303.5" cy="170.5" r="5" fill="#759ef6" />
             <text x="315.5" y="174.5" font-size="10" fill="#c9d1d9">JavaScript</text>
             
 
-            <circle cx="109.5" cy="190.5" r="5" fill="#56d0ff" />
+            <circle cx="109.5" cy="190.5" r="5" fill="#5c7fe9" />
             <text x="121.5" y="194.5" font-size="10" fill="#c9d1d9">Python</text>
+            
+
+            <circle cx="206.5" cy="190.5" r="5" fill="#7ab8ff" />
+            <text x="218.5" y="194.5" font-size="10" fill="#c9d1d9">C#</text>
             
       <text x="212.5" y="222.5" font-size="12" text-anchor="middle" fill="#c9d1d9"><tspan font-weight="bold">Total:</tspan> 10 hrs 7 mins</text>
       </g>
