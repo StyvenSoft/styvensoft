@@ -1,8 +1,8 @@
-name: Update WakaTime Stats SVG
+name: Update Profile Stats Cards
 
 on:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 */6 * * *" # every 6 hours (4 times a day)
   workflow_dispatch:
 
 permissions:
@@ -14,35 +14,34 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
-      - name: Generate SVG from Vercel API
+      - name: Generate SVG cards
         env:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          WAKATIME_USERNAME: steveenecheverri
+          GITHUB_LOGIN: StyvenSoft
+          # Shareable JSON "Coding Activity" (Last 7 Days). Es un enlace pensado para ser publico.
+          WEEK_SHARE_URL: https://wakatime.com/share/@steveenecheverri/bc74d827-dc6b-43d4-9be8-7776db162a63.json
+          YEARLY_GOAL_HOURS: "400"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUT_DIR: wakatime
         run: |
           set -euo pipefail
-          mkdir -p wakatime
-          curl -fsSL "https://wakatime-readme-stats.vercel.app/api/wakatimeStats?username=steveenecheverri&api_key=$WAKATIME_API_KEY&github_token=$GITHUB_TOKEN&theme=dark_github&&components=2&component1_type=all_langs&component2_type=weekly_langs&title_prefix=StyvenSoft" \
-            -o wakatime/stats.svg
+          node scripts/profile-cards.mjs
 
-      - name: Bump README cache-buster for wakatime/stats.svg (daily)
+      - name: Bump README cache-buster for wakatime/*.svg (daily)
         run: |
           set -euo pipefail
-
           V="$(date -u +%Y%m%d)"  # changes once per day
-
-          sed -i -E "s#(wakatime/stats\.svg)\?v=[0-9]+#\1?v=$V#g" README.md
-          sed -i -E "s#(wakatime/stats\.svg)(\"|')#\1?v=$V\2#g" README.md
+          sed -i -E "s#(wakatime/[a-z-]+\.svg)\?v=[0-9]+#\1?v=$V#g" README.md
+          sed -i -E "s#(wakatime/[a-z-]+\.svg)(\"|')#\1?v=$V\2#g" README.md
 
       - name: Commit changes to repo
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-
-          git add wakatime/stats.svg README.md
+          git add wakatime README.md
           git diff --cached --quiet && echo "No changes" && exit 0
-
-          git commit -m "Update WakaTime stats SVG (cache-bust v=$(date -u +%Y%m%d))"
+          git commit -m "Update profile stats cards (cache-bust v=$(date -u +%Y%m%d))"
           git push
