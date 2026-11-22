@@ -12,6 +12,8 @@ const WAKA_USER = env.WAKATIME_USERNAME;
 const GH_LOGIN = env.GITHUB_LOGIN;
 const GH_TOKEN = env.GITHUB_TOKEN;
 const WEEK_URL = env.WEEK_SHARE_URL;
+const OAUTH = env.WAKATIME_OAUTH_TOKEN;              // opcional: activa la semana apilada por lenguaje
+const WAKA_BASE = env.WAKATIME_API_BASE ?? 'https://wakatime.com'; // solo se cambia en pruebas
 const GOAL_H = Number(env.YEARLY_GOAL_HOURS ?? 400);
 const OUT = env.OUT_DIR ?? 'wakatime';
 const RETRIES = Number(env.RETRIES ?? 5);
@@ -19,10 +21,10 @@ const RETRY_DELAY_MS = Number(env.RETRY_DELAY_MS ?? 15000);
 const TEST = { stats: env.WAKATIME_STATS_FILE, week: env.WEEK_FILE, gh: env.GITHUB_FILE }; // pruebas offline
 
 // ---------- Paleta GitHub dark ----------
-const C = { bg: '#0d1117', sub: '#151b23', track: '#21262d', border: '#3d444d', fg: '#f0f6fc', mut: '#9198a1',
+const C = { bg: '#151b23', sub: '#151b23', track: '#21262d', border: '#3d444d', fg: '#f0f6fc', mut: '#9198a1',
   blue: '#4493f8', green: '#3fb950', orange: '#f0883e', purple: '#a371f7' };
 const LANG = { 'C#': '#3fb950', TypeScript: '#4493f8', JavaScript: '#f1e05a', JSON: '#8b949e', Markdown: '#a5d6ff',
-  SQL: '#e38c00', Binary: '#6e7681', Other: '#768390', CSHTML: '#a371f7', HTML: '#e34c26', CSS: '#d2a8ff',
+  SQL: '#e38c00', Binary: '#6e7681', Other: '#59636e', CSHTML: '#a371f7', HTML: '#e34c26', CSS: '#d2a8ff',
   Bash: '#89e051', Python: '#79c0ff', 'VB.NET': '#945db7', Prisma: '#39c5cf', YAML: '#cb171e', XML: '#6ea8fe' };
 const EXTRA = ['#3fb950', '#f1e05a', '#8b949e', '#d2a8ff'];
 const lc = (n) => LANG[n] ?? '#8b949e';
@@ -58,10 +60,20 @@ async function loadStats() {
   // Sin rango => rango publico del perfil
   return (await getJson(`https://wakatime.com/api/v1/users/${encodeURIComponent(WAKA_USER)}/stats`)).data;
 }
+// Devuelve { mode: 'stacked' | 'totals', days }.
+//  - stacked: summaries por dia CON lenguajes (requiere token OAuth con scope read_summaries)
+//  - totals : Shareable "Coding Activity" (solo total por dia)
 async function loadWeek() {
-  if (TEST.week) return JSON.parse(readFileSync(TEST.week, 'utf8')).data;
-  if (!WEEK_URL) throw new Error('Falta WEEK_SHARE_URL (Shareable JSON "Coding Activity")');
-  return (await getJson(WEEK_URL)).data;
+  if (TEST.week) { const d = JSON.parse(readFileSync(TEST.week, 'utf8')).data; return { mode: d.some((x) => Array.isArray(x.languages)) ? 'stacked' : 'totals', days: d }; }
+  if (OAUTH) {
+    try {
+      const j = await getJson(`${WAKA_BASE}/api/v1/users/current/summaries?range=last_7_days`, { Authorization: `Bearer ${OAUTH}` });
+      if (j.data?.some((x) => Array.isArray(x.languages))) return { mode: 'stacked', days: j.data };
+      throw new Error('la respuesta no trae lenguajes por dia');
+    } catch (e) { console.log(`::warning::Semana apilada no disponible (${e.message}); se usa el Shareable de totales`); }
+  }
+  if (!WEEK_URL) throw new Error('Falta WEEK_SHARE_URL (Shareable JSON "Coding Activity") y no hay token OAuth valido');
+  return { mode: 'totals', days: (await getJson(WEEK_URL)).data };
 }
 async function loadGithub() {
   if (TEST.gh) return JSON.parse(readFileSync(TEST.gh, 'utf8'));
@@ -87,7 +99,7 @@ const W = 430, H = 300;
 const STYLE = `<style>
  text { font-family: 'Segoe UI', -apple-system, 'Noto Sans', Helvetica, Arial, sans-serif; fill: ${C.fg}; }
  .t { font-size: 14px; font-weight: 600 } .pill { font-size: 9.5px; font-weight: 600; fill: ${C.mut}; letter-spacing: .3px }
- .l { font-size: 12.5px } .v { font-size: 12.5px; font-weight: 600 } .v3 { font-size: 13px; font-weight: 600 }
+ .l { font-size: 12.5px } .l2 { font-size: 11.5px } .v { font-size: 12.5px; font-weight: 600 } .v3 { font-size: 13px; font-weight: 600 }
  .m { font-size: 11.5px; fill: ${C.mut} } .m2 { font-size: 11px; fill: ${C.mut} }
  .axis { font-size: 9.5px; fill: ${C.mut} } .axis2 { font-size: 11px; font-weight: 600 }
  .big { font-size: 20px; font-weight: 700 } .big2 { font-size: 22px; font-weight: 700 }
@@ -165,6 +177,36 @@ function cardWeek(days) {
 <text x="${W / 2}" y="${H - 12}" text-anchor="middle" class="m2">Total: ${esc(hm(total))}</text>`, `Coding activity de los ultimos ${d7.length} dias`);
 }
 
+// Semana en columnas apiladas por lenguaje (summaries por dia con lenguajes)
+function cardWeekStacked(days) {
+  const WD = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+  const d7 = days.slice(-7).map((d) => ({ wd: WD[new Date(d.range.date + 'T12:00:00Z').getUTCDay()], sec: Number(d.grand_total?.total_seconds) || 0,
+    langs: (d.languages ?? []).map((l) => ({ name: l.name, sec: Number(l.total_seconds) || 0 })) }));
+  if (!d7.length) throw new Error('Sin dias en summaries');
+  const tot = new Map();
+  d7.forEach((d) => d.langs.forEach((l) => { if (l.name !== 'Other') tot.set(l.name, (tot.get(l.name) ?? 0) + l.sec); }));
+  const top = [...tot.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([n]) => n);
+  const order = [...top, 'Other'];
+  const maxH = Math.max(...d7.map((d) => d.sec)) / 3600;
+  const step = [0.25, 0.5, 1, 2, 4, 8].find((s) => maxH / s <= 4) ?? 8, axisMax = Math.max(step, Math.ceil(maxH / step) * step);
+  const cx0 = 52, cw = W - cx0 - 16, tp = 72, ch = 114, slot = cw / d7.length, bw = 30;
+  let grid = '', defs = '', bars = '';
+  for (let g = 0; g * step <= axisMax + 1e-9; g++) { const gy = tp + ch - (g * step / axisMax) * ch, lab = g === 0 ? '0' : (step < 1 ? `${Math.round(g * step * 60)}m` : `${g * step}h`);
+    grid += `<line x1="${cx0}" x2="${W - 16}" y1="${gy}" y2="${gy}" stroke="${C.border}" stroke-dasharray="${g ? '3 4' : ''}"/><text x="${cx0 - 8}" y="${gy + 3}" text-anchor="end" class="axis">${lab}</text>`; }
+  d7.forEach((d, i) => {
+    const bx = cx0 + slot * i + (slot - bw) / 2, hh = (d.sec / 3600 / axisMax) * ch;
+    const segSec = top.map((n) => d.langs.filter((l) => l.name === n).reduce((a, l) => a + l.sec, 0));
+    segSec.push(Math.max(0, d.sec - segSec.reduce((a, b) => a + b, 0)));
+    defs += `<clipPath id="wc${i}"><rect x="${bx.toFixed(1)}" y="${(tp + ch - hh).toFixed(1)}" width="${bw}" height="${Math.max(hh, 0).toFixed(1)}" rx="3"/></clipPath>`;
+    let acc = 0, segs = '';
+    order.forEach((n, k) => { const sh = d.sec ? hh * segSec[k] / d.sec : 0; if (sh > 0.1) segs += `<rect x="${bx.toFixed(1)}" y="${(tp + ch - acc - sh).toFixed(2)}" width="${bw}" height="${sh.toFixed(2)}" fill="${lc(n)}" stroke="${C.bg}" stroke-width=".8"/>`; acc += sh; });
+    bars += `<g clip-path="url(#wc${i})">${segs}</g><text x="${(bx + bw / 2).toFixed(1)}" y="${(tp + ch - hh - 5).toFixed(1)}" text-anchor="middle" class="axis">${hhmm(d.sec)}</text>
+<text x="${(bx + bw / 2).toFixed(1)}" y="${tp + ch + 16}" text-anchor="middle" class="axis2">${d.wd}</text>`; });
+  const legend = order.map((n, i) => `<circle cx="${28 + (i % 3) * 132}" cy="${236 + Math.floor(i / 3) * 19}" r="4.5" fill="${lc(n)}"/><text x="${40 + (i % 3) * 132}" y="${240 + Math.floor(i / 3) * 19}" class="l2">${esc(trunc(n, 14))}</text>`).join('');
+  const total = d7.reduce((a, d) => a + d.sec, 0);
+  return card('This week', 'WAKATIME', `<defs>${defs}</defs>${grid}${bars}${legend}\n<text x="${W / 2}" y="${H - 14}" text-anchor="middle" class="m">Total: ${esc(hm(total))}</text>`, `Coding activity por lenguaje de los ultimos ${d7.length} dias`);
+}
+
 function cardEditors(stats) {
   const ed = (stats.editors ?? []).filter((e) => e.percent > 0).sort((a, b) => b.percent - a.percent);
   if (!ed.length) throw new Error('stats.editors vacio (¿"Display editors publicly" activo?)');
@@ -192,7 +234,7 @@ const [stats, week, gh] = await Promise.all([settle(loadStats()), settle(loadWee
 const jobs = [
   ['github-stats.svg', gh.ok ? () => cardGithub(gh.v, stats.ok ? stats.v : null) : null, gh.e],
   ['languages.svg', stats.ok ? () => cardLanguages(stats.v) : null, stats.e],
-  ['week.svg', week.ok ? () => cardWeek(week.v) : null, week.e],
+  ['week.svg', week.ok ? () => (week.v.mode === 'stacked' ? cardWeekStacked(week.v.days) : cardWeek(week.v.days)) : null, week.e],
   ['editors.svg', stats.ok ? () => cardEditors(stats.v) : null, stats.e],
 ];
 let okCount = 0;

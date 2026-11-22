@@ -22,6 +22,8 @@ jobs:
           GITHUB_LOGIN: StyvenSoft
           # Shareable JSON "Coding Activity" (Last 7 Days). Es un enlace pensado para ser publico.
           WEEK_SHARE_URL: https://wakatime.com/share/@steveenecheverri/bc74d827-dc6b-43d4-9be8-7776db162a63.json
+          # Opcional: con este secret la semana sale apilada por lenguaje. Sin el, usa el Shareable (totales por dia).
+          WAKATIME_OAUTH_TOKEN: ${{ secrets.WAKATIME_OAUTH_TOKEN }}
           YEARLY_GOAL_HOURS: "400"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OUT_DIR: wakatime
