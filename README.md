@@ -26,10 +26,10 @@ I am a passionate **Software & Web Developer** dedicated to building modern, eff
 ### 💻 Coding Activity & Stats
 
 <p align="center">
-  <a href="https://github.com/StyvenSoft"><img src="wakatime/github-stats.svg?v=20261122" alt="GitHub stats" width="420" /></a>
-  <a href="https://wakatime.com/@steveenecheverri"><img src="wakatime/languages.svg?v=20261122" alt="Top languages (WakaTime)" width="420" /></a>
-  <a href="https://wakatime.com/@steveenecheverri"><img src="wakatime/week.svg?v=20261122" alt="Coding activity this week" width="420" /></a>
-  <a href="https://wakatime.com/@steveenecheverri"><img src="wakatime/editors.svg?v=20261122" alt="Editors and OS" width="420" /></a>
+  <a href="https://github.com/StyvenSoft"><img src="wakatime/github-stats.svg?v=20261123" alt="GitHub stats" width="420" /></a>
+  <a href="https://wakatime.com/@steveenecheverri"><img src="wakatime/languages.svg?v=20261123" alt="Top languages (WakaTime)" width="420" /></a>
+  <a href="https://wakatime.com/@steveenecheverri"><img src="wakatime/week.svg?v=20261123" alt="Coding activity this week" width="420" /></a>
+  <a href="https://wakatime.com/@steveenecheverri"><img src="wakatime/editors.svg?v=20261123" alt="Editors and OS" width="420" /></a>
 </p>
 
 ---
